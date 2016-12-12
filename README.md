@@ -5,13 +5,13 @@ This is a Dockerfile for Android build projects.
 * OpenJDK 8
 * Gradle 2.14.1
 * platform-tools，build-tools
-* Android SDK (android-19、21、22、23)
+* Android SDK (android-19、21、22、23、24)
 * Android Support Libraries
 
 ## How to use
 Build docker image
 ```
-docker build -t jmcn/android_build_gradle2.2 .
+docker build -t jmcn/android_build_gradle2.14.1 .
 ```
 
 Run docker image
